@@ -1,0 +1,42 @@
+/*secciones*/
+#header {
+    background-color: #E6E6E6
+}
+
+footer {
+    background-color: #005677;
+    text-align: center;
+}
+
+/*etiquetas*/
+h1 {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 24px;
+}
+
+span {
+    font-weight: bold;
+
+}
+
+/*cambio de atributos específicos*/
+
+#foto {
+    display: block margin: auto;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.margen {
+    margin-left: 4.5%;
+}
