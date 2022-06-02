@@ -1,12 +1,8 @@
 /*secciones*/
 #header {
-<<<<<<< HEAD
-    background-color: #E6E6E6
-=======
     background-image:url("img/portada.jpg");
     background-position: center;
     background-size: cover
->>>>>>> prueba
 }
 
 footer {
@@ -29,24 +25,6 @@ h2 {
 }
 
 span {
-<<<<<<< HEAD
-    font-weight: bold;
-
-}
-
-/*cambio de atributos específicos*/
-
-#foto {
-    display: block margin: auto;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.margen {
-    margin-left: 4.5%;
-=======
     font-weight: bold; 
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Gentium Plus', serif;
@@ -75,5 +53,4 @@ p {
 
 .margen {
     margin-left: 4.8%;
->>>>>>> prueba
 }
