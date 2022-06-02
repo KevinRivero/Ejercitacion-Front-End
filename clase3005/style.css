@@ -1,6 +1,8 @@
 /*secciones*/
 #header {
-    background-color: #E6E6E6
+    background-image:url("img/portada.jpg");
+    background-position: center;
+    background-size: cover
 }
 
 footer {
@@ -23,20 +25,32 @@ h2 {
 }
 
 span {
-    font-weight: bold;
+    font-weight: bold; 
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Gentium Plus', serif;
+    /* font-family: 'Roboto Mono', monospace; */
 
 }
-
+li {
+    /* font-family: 'Gentium Plus', serif; */
+    font-family: 'Roboto Mono', monospace
+}
+p {
+    font-family: 'Roboto Mono', monospace
+   
+}
 /*cambio de atributos específicos*/
 
 #foto {
-    display: block margin: auto;
+    display: block;
+     margin: auto;
+     width: 150px;
 }
 
-.italic {
+/* .italic {
     font-style: italic;
-}
+} */
 
 .margen {
-    margin-left: 4.5%;
+    margin-left: 4.8%;
 }
