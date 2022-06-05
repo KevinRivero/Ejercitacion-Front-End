@@ -6,59 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Full Desktop</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul type="disc">
-                <li>Grandes ofertas en comederos</li>
-                <li> Menú principal</li>
-                <ul>
-                    <li>Español</li>
-                    <li>$ARG</li>
-                </ul>
+            <span>Grandes ofertas en comederos</span>
+            <ul type="none">
+                <li>Español</li>
+                <li>$ARG</li>
             </ul>
         </nav>
-        <section>
-            <ul type="disc">
-                <li><img src="img/Front.png" alt="Logo1"></li>
-                <li> Menú principal</li>
-                <ul type="disc">
-                    <li>Categorías</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contáctanos</li>
-                </ul>
+        <nav class="principal">
+            <span><img src="img/Front.png" alt="Logo1"><img src="img/Cat&Dog.png"></span>
+            <ul type=>
+                <li>Categorías </i></li>
+                <li>Pets</li>
+                <li>Nosotros</li>
+                <li>Contáctanos</li>
             </ul>
-        </section>
+        </nav>
     </header>
 
-
-    <section>
-         <img src="img/bowl-and-pet-daities-on-green-background 1.png" width="800px" height="100px" alt="Banner">
-         <p> ¡Es un placer tenerte aquí!</p>
-         <p>¡Comederos en descuento!</p>
-         <p>COMEDEROS</p>
+    <h1> ¡Es un placer tenerte aquí!</h1>
+    <section class="banner">
+        <br>
+        <p class="banner1">¡Comederos en descuento!</p>
+        <p class="banner1"><span class="banner2">COMEDEROS</span></p>
     </section>
     <section>
-        <img src="img/Vector.png" alt="patita">
-        <h2> Productos destacados</h2>
-        <p> Comederos - Accesorios - Comida</p>
-        <img src="img/churrasquito.png" width="150px" height="150px"  alt="Churrasquito">
-        <p>Juguete Churrasquito</p>
-        <p> <strong>$150 </strong></p>
-        <img src="img/comedero.png" width="150px" height="150px" alt="Comedero">
-        <p>Comedero</p>
-        <p><strong>$150</strong></p>
-        <img src="img/Huesito.png" width="150px" height="150px" alt="Huesito">
-        <p>Juguete huesito</p>
-        <strong>$150</strong>
+        <h2 id="h2"> Productos destacados</h2>
+        <p id="h3"> Comederos - Accesorios - Comida</p>
+        <div class="items">
+            <img src="img/churrasquito.png" width="150px" height="150px" alt="Churrasquito">
+            <p class="desc">Juguete Churrasquito</p>
+            <p class="precio"> <strong>$150 </strong></p>
+            <img src="img/comedero.png" width="150px" height="150px" alt="Comedero">
+            <p class="desc">Comedero</p>
+            <p class="precio"><strong>$150</strong></p>
+            <img src="img/Huesito.png" width="150px" height="150px" alt="Huesito">
+            <p class="desc">Juguete huesito</p>
+            <p class="precio"><strong>$150</strong></p>
+        </div>
+    </section>
+    <section class="informacion">
+        <h3>Localidad</h3>
+        <p class="inf">Calle - Provincia</p>
+        <h3>Número de teléfono</h3>
+        <p class="inf">35190511074</p>
+        <h3>Correo Electrónico</h3>
+        <p class="inf">petshop@gmail.com</p>
+        <img src="img/Front blanco.png" alt="Front"><img src="img/Cat&Dog naranja.png" alt="CatyDog">
     </section>
     <footer>
         <p>Todos los derechos reservados Front End</p>
     </footer>
 
-</body>    
+</body>
+
 </html>
