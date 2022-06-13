@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+    color: white;
+    align-self: "center";
+    height: 110px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logonav {
+    flex-wrap: wrap;
+    width: 250px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+
+}
+
+.pizza {
+    align-self: center;
+}
+
+.navegacion {
+    font-size: 20px;
+    display: flex;
+    margin-left: 62%;
+    width: 400px;
+}
+
+#lista {
+    display: flex;
+    text-align: center;
+    align-self: center;
+
+}
+
+#lista li {
+    font-weight: 400;
+    margin: 0px 15px;
+}
+
+main {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.envio {
+    display: flex;
+    justify-content: flex-start;
+    height: 600px;
+    width: 45%;
+    background-image: url('../img/delivery.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.podio {
+    background-color: #FFFFFF;
+    display: flex;
+    height: 600px;
+    width: 45%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div h2{
+    font-size: 30px;
+    color: red;
+    margin-left: 40px;
+}
+span{
+    color: white;
+}
+#arbol{
+    height: 200px;
+    width: 150px;
+}
+#podio{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.dentropodio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.top{
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 40%;
+}
+ol li{
+    margin: 10px 0px;
+}
+.arbol{
+    position: relative;
+    top:20px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-right: 40px;
+    
+}
+footer{
+    margin-top: 30px;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 140px;
+}
+footer div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-right: 50px;
+}
+footer ul li{
+    display: flex;
+    margin-top: 3px;
+    
+}

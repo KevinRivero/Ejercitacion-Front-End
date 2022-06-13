@@ -16,129 +16,218 @@
     padding: 15px;
     font-weight: 400;
     font-size: 40px;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);    
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 10;
 }
 
-main {
-    height: 1200px;
+main{
     width: 100%;
+    height: 720px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
 }
-/* BATMAN */
-/* Perfil */
+
 .batman{
-    background-image:url('../img/Batman.png');
-    background-size: cover;
-    position: absolute;
-    top: 305px;
-    left: 19%;
-    height: 150px;
-    width: 150px;
-    background-color: #00669F;
-    border-radius: 100%;
-    z-index: 10;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.25);
-
-}
-/* Fondo */
-.c1{
-    background-image: url('../img/fondoBatman.png');
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    top:210px;
-    left: 15%;
-}
-/* Biografía */
-.caja1{
-    /* display: inline-block; */
-    position: absolute;
-    height: 336px;
-    width: 300px;
-    background-color: #F3F3F3;
-    top:400px;
-    left: 15%;
-    
-}
-/* HARLEY
-Perfil */
-.harley{
-    background-image:url('../img/Harley.png');
-    background-size: cover;
-    position: absolute;
-    top: 305px;
-    left: 42%;
-    height: 150px;
-    width: 150px;
-    background-color: #00669F;
-    border-radius: 100%;
-    z-index: 10;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.25); 
-}
-/* FONDO */
-.c2{
-    background-image: url('../img/fondoHarley.png');
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    top:210px;
-    left: 38%;
-}
-/* Biografía */
-.caja2{
-    /* display: inline-block; */
-    position: absolute;
-    height: 336px;
-    width: 300px;
-    background-color: #F3F3F3;
-    top:400px;
-    left: 38%;
-}
-/* ROBIN
-Perfil */
-.robin{
-    background-image:url('../img/Robin.jpg');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 305px;
-    left: 65%;
-    height: 150px;
-    width: 150px;
-    background-color: #00669F;
-    border-radius: 100%;
-    z-index: 10;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.25);
-
-}
-.c3{
-    background-image:url('../img/fondoRobin.jpg');
-    background-size: cover;
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    top:210px;
-    left: 61%;
-    border-radius: 16px 16px 0px 0px;
-}
-.caja3{
-    /* display: inline-block; */
-    position: absolute;
-    height: 336px;
-    width: 300px;
-    background-color:#F3F3F3;
-    top: 400px;
-    left: 61%;
-}
-.bat{
-    text-align: center;
     position: relative;
-    top: 40px;
+    width: 300px;
+    height: 593px;
+}
+.harley{
+    position: relative;
+    width: 300px;
+    height: 593px;
+}
+.robin{
+    position: relative;
+    width: 300px;
+    height: 593px;
+}
+.nombre{
+    position: absolute;
+    top: 50px;
     font-size: 30px;
-
+    font-weight: 400;
 }
 .text{
-    margin-top: -50px;
-    position:relative;
-    padding:0px 15px;
-    top: 75px;
+    padding: 15px;
+    position:absolute;
+    top:130px;
+    
+}
+
+
+/* Fondos */
+.fondobatman {
+    background-image: url('../img/fondoBatman.png');
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 193px;
+    flex-grow: 0;
+}
+.fondobatman img {
+    height: 30px;
+    width: 30px;
+    margin: 15px 0px 0px 20px;
+    display: flex;
+}
+.fondoharley{
+    background-image: url('../img/fondoHarley.png');
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 193px;
+    flex-grow: 0;
+}
+.fondoharley img {
+    height: 30px;
+    width: 30px;
+    margin: 15px 0px 0px 20px;
+    display: flex;
+}
+.fondorobin{
+    background-image: url('../img/fondoRobin.jpg');
+    background-size: contain;
+    border-radius: 16px 16px 0px 0px;
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 193px;
+    flex-grow: 0;
+}
+.fondorobin img {
+    height: 30px;
+    width: 30px;
+    margin: 15px 0px 0px 20px;
+    display: flex;
+}
+
+/* Biografías */
+.biobatman {
+    position:absolute;
+    top:193px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    background-color: #F3F3F3;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botonBat{
+    position: absolute;
+    background-color: #00669F;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    top: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bioharley{
+    position:absolute;
+    top:193px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    background-color: #F3F3F3;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.botonHar{
+    position: absolute;
+    background-color: #00669F;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    top: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.biorobin {
+    position:absolute;
+    top:193px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    background-color: #F3F3F3;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botonRob{
+    position: absolute;
+    background-color: #00669F;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    top: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Perfiles */
+.perfilbatman {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/Batman.png');
+    z-index: 1;
+    left: 75px;
+    top: 90px;
+    border-radius: 100%;
+    background-size: cover;
+}
+.perfilharley {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/Harley.png');
+    z-index: 1;
+    left: 75px;
+    top: 90px;
+    border-radius: 100%;
+    background-size: cover;
+}
+.perfilrobin {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/Robin.jpg');
+    background-position: center;
+    z-index: 1;
+    left: 75px;
+    top: 90px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+
+footer {
+    background-color: #00669F;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
 }
